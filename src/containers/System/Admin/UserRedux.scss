@@ -1,0 +1,33 @@
+.user-redux-container{
+    margin-left: 50px;
+    margin-right: 50px;
+
+    .preview-img-container{
+        display: flex;
+       
+        .label-upload{
+            width: 32%;
+            height: 35px;
+            padding: 5px;
+            border-radius: 3px;
+            background: #ddd;
+            cursor: pointer;
+            &:hover{
+                opacity: 0.8;
+            }
+        }
+        .preview-image{
+            margin-left: 10px;
+           
+            height: 50px;
+            width: 32%;
+            background: center center no-repeat;
+            background-size: contain;
+            cursor: pointer;
+           
+           
+        }
+    }
+
+    
+}

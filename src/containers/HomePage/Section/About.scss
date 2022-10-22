@@ -1,0 +1,38 @@
+.section-about{
+     @media only screen and (max-width: 46.1875em) {
+            padding: 0 5px !important;  
+            margin-top: 20px; 
+
+        }
+        @media only screen and (min-width: 46.25em) and (max-width: 63.9375em) {
+            padding: 0 5px !important;
+            margin-top: 20px; 
+        }
+    .section-about-content{
+        
+        .video{
+            width: 60%;
+            @media only screen and (max-width: 46.1875em) {
+                padding-left: 30px;
+                width: 100% !important;
+    
+            }
+            @media only screen and (min-width: 46.25em) and (max-width: 63.9375em) {
+                padding: 0 5px !important;
+            }
+           
+        }
+        .image{
+            width: 40%;
+            @media only screen and (max-width: 46.1875em) {
+                display: none;
+    
+            }
+            @media only screen and (min-width: 46.25em) and (max-width: 63.9375em) {
+                display: none;
+            }
+           
+        }
+       
+    }
+}

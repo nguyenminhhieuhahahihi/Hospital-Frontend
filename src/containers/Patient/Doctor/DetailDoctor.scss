@@ -1,0 +1,103 @@
+.doctor-detail-container{
+    height: 500px;
+    
+
+    .intro-doctor{
+        display: flex;
+        margin: 0 100px;
+        border-top: 1px solid #ddd;
+        @media only screen and (max-width: 46.1875em) {
+            margin: 0 40px;
+           
+         }
+         @media only screen and (min-width: 46.25em) and (max-width: 63.9375em) {
+            margin: 0 0;
+         }
+        .content-left{
+            width: 20%;
+            background: center center no-repeat;
+            width: 120px;
+            height: 120px;
+            border-radius: 50%;
+            margin: 10px 20px;
+            @media only screen and (max-width: 46.1875em) {
+                margin: 10px 0;
+               
+             }
+             @media only screen and (min-width: 46.25em) and (max-width: 63.9375em) {
+                margin: 0 0;
+             }
+        }
+        .content-right{
+            width: 80%;
+            display: flex;
+            flex-direction: column;
+            padding: 10px;
+            @media only screen and (max-width: 46.1875em) {
+               margin-left: 60px;
+                
+              }
+              @media only screen and (min-width: 46.25em) and (max-width: 63.9375em) {
+                 
+              }
+
+            .up{
+                padding-top: 15px;
+                font-size: 20px;
+                font-weight: 600;
+                @media only screen and (max-width: 46.1875em) {
+                   padding-top: 0px;
+                    
+                }
+                @media only screen and (min-width: 46.25em) and (max-width: 63.9375em) {
+                    margin: 0 20px;
+                }
+            }
+            .down{
+                padding-top: 10px;
+                @media only screen and (max-width: 46.1875em) {
+                    display: none;
+                }
+                @media only screen and (min-width: 46.25em) and (max-width: 63.9375em) {
+                    display: none;
+                }
+            }
+        }
+    }
+
+    .schedule-doctor{
+        margin: 0 100px;
+        display: flex;
+        padding: 10px 0;
+        min-height: 200px;
+        @media only screen and (max-width: 46.1875em) {
+            margin: 0 20px;
+        }
+        @media only screen and (min-width: 46.25em) and (max-width: 63.9375em) {
+            margin: 0 20px;
+        }
+        
+        .content-left{
+            width: 50%;
+        }
+        .content-right{
+            width: 50%;
+        }
+    }
+
+    .detail-infor-doctor{
+        border-top: 1px solid #ddd;
+        border-bottom: 1px solid #ddd;
+        background-color: #f9f9f9;
+        padding: 10px 100px;
+        h3{
+            font-size: 17px;
+        }
+        img{
+            width: 100%;
+        }
+    }
+    .comment-doctor{
+        height: 50px;
+    }
+}
