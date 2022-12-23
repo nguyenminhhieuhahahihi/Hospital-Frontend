@@ -6,7 +6,7 @@ Công nghệ sử dụng: React & Node.js, Express, SQL.
 Mô tả về sản phẩm:
 Bao gồm 2 giao diện:
 - Giao diện người dùng (dành cho bệnh nhân):
-- 
+
 Link: https://nmh-bookingcareclone.vercel.app/
 
 ![image](https://user-images.githubusercontent.com/72438297/209310990-c0888f62-cc09-4206-b51f-0e0b511ebd1e.png)
@@ -19,6 +19,7 @@ Link: https://nmh-bookingcareclone.vercel.app/
 + Cho phép người dùng xem chi tiết thông tin các chuyên khoa phổ biến, cơ sở y tết nổi bật và các bác sĩ nổi bật.
 + Người dùng có thể đặt lịch khám theo một khung giờ nhất dịnh của một bác sĩ thuộc một chuyên khoa.
 + Đặt lịch khám bệnh xong, người dùng có thể xác nhận lịch khám từ hệ thống bằng cách vào Email xác nhận.
+
 - Giao diện quản lý (dành cho Admin và Bác sĩ):
 
 Link: https://nmh-bookingcareclone.vercel.app/login
@@ -31,7 +32,7 @@ Link: https://nmh-bookingcareclone.vercel.app/login
 - Username: DOCTOR@gmail.com
 - Password: DOCTOR
 
-Chức năng của Quản trị viên:
+- Chức năng của Quản trị viên:
 
 - Quản trị viên sẽ có các quyền bao gồm: 
 
