@@ -208,6 +208,7 @@
         background-image: linear-gradient(rgba(255, 255, 255, 0.1),rgba(255, 255, 255, 0.9),rgba(255, 255, 255, 1));
 
         .options{
+            margin-bottom: 120px;
             text-align: center;
             display: flex;
             gap: 50px;
@@ -233,6 +234,10 @@
                     border-radius: 50%;
                     text-align: center;
                     margin: 0 auto;
+                    cursor: pointer;
+                }
+                .text-child{
+                    color: black;
                     cursor: pointer;
                 }
                 .icon-child-2{
